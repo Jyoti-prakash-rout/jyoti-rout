@@ -10,13 +10,15 @@ const Projects = () => {
         <div className={styles.projectsContainer}>
           <ProjectCard
             src={crypto}
-            link="crypto-2tracker.netlify.app/"
+            target="_blank"
+            link="https://crypto-2tracker.netlify.app/"
             h3="Crypto Place"
             p="Crypto Tracker"
           />
           <ProjectCard
             src={dice}
-            link="dice-2game.netlify.app/"
+            target="_blank"
+            link="https://dice-2game.netlify.app/"
             h3="Guess Number"
             p="Dice Game"
           />
