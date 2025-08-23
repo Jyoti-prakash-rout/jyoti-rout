@@ -33,10 +33,12 @@ const Hero = () => {
         </h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href="https://linkdin.com" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/jyoti-prakash-rout/"
+            target="_blank">
             <img src={linkdinIcon} alt="Linkdin Icon" />
           </a>
-          <a href="https://github.com" target="_blank">
+          <a href="https://github.com/Jyoti-prakash-rout" target="_blank">
             <img src={githubIcon} alt="Linkdin Icon" />
           </a>
         </span>

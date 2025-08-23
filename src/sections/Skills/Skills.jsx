@@ -15,9 +15,9 @@ const Skills = () => {
       <br />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skills="ReactJS" />
-        <SkillList src={checkMarkIcon} skills="NextJs" />
+        {/* <SkillList src={checkMarkIcon} skills="NextJs" /> */}
         <SkillList src={checkMarkIcon} skills="Tailwind CSS" />
-        <SkillList src={checkMarkIcon} skills="Redux" />
+        {/* <SkillList src={checkMarkIcon} skills="Redux" /> */}
         <SkillList src={checkMarkIcon} skills="Webpack" />
         <SkillList src={checkMarkIcon} skills="Jest" />
       </div>
