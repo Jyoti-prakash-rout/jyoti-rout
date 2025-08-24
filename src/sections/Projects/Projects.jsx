@@ -2,6 +2,7 @@ import styles from "./ProjectsStyles.module.css";
 import ProjectCard from "../../common/ProjectCard";
 import crypto from "../../assets/crypto-place-2.png";
 import dice from "../../assets/dice-icon.png";
+import movie from "../../assets/movies4u_logo.png";
 const Projects = () => {
   return (
     <div>
@@ -21,6 +22,13 @@ const Projects = () => {
             link="https://dice-2game.netlify.app/"
             h3="Guess Number"
             p="Dice Game"
+          />
+          <ProjectCard
+            src={movie}
+            target="_blank"
+            link=""
+            h3="Movies4u"
+            p="Filter Latest Movies"
           />
         </div>
       </section>
