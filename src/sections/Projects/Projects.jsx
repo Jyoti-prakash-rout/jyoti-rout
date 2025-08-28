@@ -26,7 +26,7 @@ const Projects = () => {
           <ProjectCard
             src={movie}
             target="_blank"
-            link=""
+            link="https://mov-ies4u.netlify.app/"
             h3="Movies4u"
             p="Filter Latest Movies"
           />
